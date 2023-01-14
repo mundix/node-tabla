@@ -7,6 +7,6 @@ console.log(process.argv);
 
 
 const base = 4;
-// crearArchivo(base)
-//    .then(nombreArchivo => console.log(nombreArchivo))
-//    .catch( err => console.error(err));
+crearArchivo(base)
+   .then(nombreArchivo => console.log(nombreArchivo))
+   .catch( err => console.error(err));
