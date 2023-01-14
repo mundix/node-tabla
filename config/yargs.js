@@ -5,6 +5,13 @@ const argv = require('yargs')
       demandOption: true,
       describe: 'Esta es la base para la tabla de multiplicar'
    })
+   .option('h', {
+      alias: 'hasta',
+      type: 'number',
+      demandOption: false,
+      default: 10,
+      describe: 'Limite hasta donde quiero hacer la tabla de multiplicar'
+   })
    .option('l', {
       alias: 'listar',
       type: 'boolean',
